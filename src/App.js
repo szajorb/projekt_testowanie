@@ -1,12 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-
+import Book from './components/ksiazka'
 import Footer from './components/Footer';
-
 import Home from './components/Home';
 import Details from './components/Details';
-import AddFilm from './components/Dodaj';
+import Addbook from './components/Dodaj';
 import SignUp from './components/Rejestracja';
 import SignIn from './components/Logowanie';
 import NotFound from './components/NotFound';

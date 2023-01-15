@@ -17,14 +17,14 @@ const Dodaj = () => {
   const addFilm = () => {
 
     if(title.trim() === '') {
-      setErrorTitle('Podaj tytuł filmu!');
+      setErrorTitle('Podaj tytuł książki!');
       return;
     } else {
       setErrorTitle();
     }
 
     if (description.trim() === '') {
-      setErrorDescription('Podaj opis filmu!');
+      setErrorDescription('Podaj opis książki!');
       return;
     } else if (description.trim().length < 10) {
       setErrorDescription('Opis zbyt krótki!');
@@ -55,7 +55,7 @@ const Dodaj = () => {
       }
     }).then((response) => {
       console.log(response);
-      setInfo('Film dodany pomyślnie :)')
+      setInfo('Książka dodana pomyślnie :)')
     }).catch((error) => {
       console.log(error);
     })
