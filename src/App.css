@@ -1,0 +1,21 @@
+body {
+	background-image: url('https://ssv.pl/wp-content/uploads/2018/01/t%C5%82o-strony.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.94);
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+	margin-top: 15px;
+}
+
+.movie-app > .row {
+  overflow-x: auto;
+  flex-wrap: wrap;
+}
