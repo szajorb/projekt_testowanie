@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="page-footer font-small blue">
-                <div className="footer-copyright text-center py-3 text-light"><h6>Copyright � 2022 PROJEKT</h6>
+                <div className="footer-copyright text-center py-3 text-light"><h6>Testowanie i Jakość Oprogramowania - B Szajor, D Pochron</h6>
                 </div>
             </footer>
         </div>
