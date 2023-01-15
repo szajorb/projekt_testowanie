@@ -1,0 +1,68 @@
+[
+    {
+        "id": "1",
+        "title": "Chołod",
+        "details": "Szczepan Twardoch, 2022, 416 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5029000/5029705/1018033-352x500.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Gdzie śpiewają raki",
+        "details": "Delia Owens, 2022, 416 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5019000/5019183/988821-352x500.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Zanim wystygnie kawa",
+        "details": "Toshikazu Kawaguchi, 2022, 240 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5017000/5017747/984776-352x500.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Czarny łabędź. Jak nieprzewidywalne zdarzenia rządzą naszym życiem",
+        "details": "Nassim Nicholas Taleb, 2020, 698 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/4921000/4921407/802240-352x500.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Cztery tysiące tygodni",
+        "details": "Oliver Burkeman, 2022",
+        "img": "https://s.lubimyczytac.pl/upload/books/5040000/5040683/1021606-352x500.jpg"
+    },
+    {
+        "id": "6",
+        "title": "It Ends with Us",
+        "details": "Colleen Hoover, 2017, 352 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/4803000/4803924/592132-352x500.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Krwawy księżyc",
+        "details": "Jo Nesbø, 2022, 448 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5043000/5043577/1026254-352x500.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Secretum",
+        "details": "Katarzyna Grzegrzółka, 2021, 316 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/4993000/4993296/943986-352x500.jpg"
+    },
+    {
+        "id": "9",
+        "title": "Baśniowa opowieść",
+        "details": "Stephen King, 2022, 704 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5022000/5022292/992194-352x500.jpg"
+    },
+    {
+        "id": "10",
+        "title": "Ucieczka niedźwiedzicy",
+        "details": "Joanna Bator, 2022, 320 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5040000/5040828/1021869-352x500.jpg"
+    },
+    {
+        "id": "11",
+        "title": "Prawo matki",
+        "details": "Przemysław Piotrowski, 2022, 392 str.",
+        "img": "https://s.lubimyczytac.pl/upload/books/5043000/5043448/1025970-352x500.jpg"
+    }
+]
