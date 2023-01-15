@@ -12,7 +12,7 @@ const Home = () => {
   let isNotLoggedIn = isExpired(localStorage.getItem('token'));
 
   const [movies, setMovies] = useState([]);
-  const [searchValue, setSearchValue] = useState('movie');
+  const [searchValue, setSearchValue] = useState('book');
 
   useEffect(() => {
     const getMoviesRequest = async (searchValue) => {
@@ -58,7 +58,7 @@ const Home = () => {
                   <button style={{ backgroundColor: '#e6c619', color: '#2b2410' }} type="submit" class="btn">Zarejestruj</button>
           </Link>}
 
-              {!isNotLoggedIn && <a href="/" onClick={() => localStorage.removeItem('token')} style={{ backgroundColor: '#e6c619', color: '#2b2410'}} type="submit" class="btn">Wyloguj siê</a>}
+              {!isNotLoggedIn && <a href="/" onClick={() => localStorage.removeItem('token')} style={{ backgroundColor: '#e6c619', color: '#2b2410'}} type="submit" class="btn">Wyloguj siï¿½</a>}
       </div>
 
       <div className="row">
