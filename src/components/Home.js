@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MovieList from './ListaFilmow';
+import MovieList from './Listaksiazek';
 import Heading from './Head';
 import SearchBar from './Szukaj';
 import { isExpired  } from "react-jwt";

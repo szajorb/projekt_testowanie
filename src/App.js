@@ -55,7 +55,7 @@ const App = () => {
                  path="/add"
                  element={
                     <RequireAuth redirectTo="/signin">
-                        <AddFilm />
+                        <Addbook />
                     </RequireAuth>
                   } />
 
