@@ -1,21 +1,21 @@
 import React from 'react';
-import './ListaFilmow.css';
+import './Listaksiazek.css';
 
 import { Link } from "react-router-dom";
 
-const ListaFilmow = (props) => {
+const Listaksiazek = (props) => {
     return (
         <>
-            {props.movies.map((movie, index) => (
+            {props.movies.map((book, index) => (
                 <div className="d-flex justify-content-center m-3 col">
 
-                    <Link to={`/details/${movie.id}`}>
+                    <Link to={`/details/${book.id}`}>
                         <div class="img__wrap">
-                            <img class="img__img" src={movie.image} onError={({ currentTarget }) => {
+                            <img class="img__img" src={book.image} onError={({ currentTarget }) => {
                                 currentTarget.onerror = null; // prevents looping
                                 currentTarget.src = "https://fwcdn.pl/fpo/77/78/757778/7966011.6.jpg";
-                            }} alt='movie' width="300" height="400" />
-                            <p class="img__description">{movie.content}</p>
+                            }} alt='book' width="300" height="400" />
+                            <p class="img__description">{book.content}</p>
                         </div>
                     </Link>
 
@@ -25,5 +25,5 @@ const ListaFilmow = (props) => {
     );
 };
 
-export default ListaFilmow;
+export default Listaksiazek;
 

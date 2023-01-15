@@ -1,0 +1,34 @@
+
+
+/* relevant styles */
+.img__wrap {
+  position: relative;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.img__description {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(59, 59, 59, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
