@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Heading from './Head';
 import validator from 'validator';
-const axios = require('axios');
 
 const Rejestracja = () => {
 
@@ -21,7 +20,7 @@ const Rejestracja = () => {
         console.log('login: ' + login);
         console.log('email: ' + email);
         console.log('pass: ' + pass);
-       
+
 
         if (login.trim() === '') {
             setErrorLogin('Wymagany login!');
@@ -47,23 +46,15 @@ const Rejestracja = () => {
             setErrorPassword();
         }
 
-        
-
-        axios({
-            method: 'post',
-            url: 'https://pr-movies.herokuapp.com/api/user/create',
-            data: {
-                name: login,
-                email: email,
-                password: pass
-            }
-        }).then((response) => {
-            console.log(response);
-            setInfo('Rejestracja przebiegła pomyślnie :)');
-        }).catch((error) => {
-            console.log(error);
-            setErrorPassword('Podany login lub e-mail zajęty!');
+        fs.readFile('results.json', function (err, data) {
+            var json = JSON.parse(data);
+            json.push('login: ' + login, 'email: ' + email, 'pass: ' + pass);
+            fs.writeFile("results.json", JSON.stringify(json), function(err){
+                if (err) throw err;
+                console.log('Nie udało się zarejestrować użytkownika');
+            });
         })
+
     };
 
     return (
